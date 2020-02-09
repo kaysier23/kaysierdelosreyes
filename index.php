@@ -10,11 +10,11 @@
 
 <?php
  foreach( $content as $data ){
-     $mus_title = $data->getElementsByTagName("Stage_Name")->item(0)->nodeValue;
-     $mus_title = $data->getElementsByTagName("Rank")->item(0)->nodeValue;
-     $mus_artist = $data->getElementsByTagName("Birth_Name")->item(0)->nodeValue;
-     $mus_genre = $data->getElementsByTagName("Birthday")->item(0)->nodeValue;
-     $mus_writer = $data->getElementsByTagName("Position")->item(0)->nodeValue;
+     $Stage_Name = $data->getElementsByTagName("Stage_Name")->item(0)->nodeValue;
+     $Rank = $data->getElementsByTagName("Rank")->item(0)->nodeValue;
+     $Birth_Name = $data->getElementsByTagName("Birth_Name")->item(0)->nodeValue;
+     $Birthday = $data->getElementsByTagName("Birthday")->item(0)->nodeValue;
+     $Position = $data->getElementsByTagName("Position")->item(0)->nodeValue;
      echo "<ul>
             <h2>$Stage_Name</h2>
               <ul>

@@ -1,9 +1,9 @@
     
 <?php
  $domOBJ = new DOMDocument();
- $domOBJ->load("https://xmlfaus.herokuapp.com/rss.php");//XML page URL
+ $domOBJ->load("https://kaysierdelosyres.herokuapp.com/rss.php");//XML page URL
  
- $content = $domOBJ->getElementsByTagName("profile");
+ $content = $domOBJ->getElementsByTagName("izone");
 ?>
 
 <h1>IZ*ONE PROFILE</h1>
@@ -18,9 +18,9 @@
      echo "<ul>
             <h2>$Stage_Name</h2>
               <ul>
-                  <li>Birth_Name: $Rank</li>
-                  <li>Birthday: $Birth_Name </li>
-                  <li>Rank:$Birthday </li>
+                  <li>Rank: $Rank</li>
+                  <li>Birth_Name: $Birth_Name </li>
+                  <li>Birthday:$Birthday </li>
                   <li>Position: $Position</li>
               </ul>
           </ul>";

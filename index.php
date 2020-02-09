@@ -1,9 +1,9 @@
     
 <?php
  $domOBJ = new DOMDocument();
- $domOBJ->load("https://xmlfaus.herokuapp.com/rssf.php");//XML page URL
+ $domOBJ->load("https://xmlfaus.herokuapp.com/rss.php");//XML page URL
  
- $content = $domOBJ->getElementsByTagName("music");
+ $content = $domOBJ->getElementsByTagName("profile");
 ?>
 
 <h1>IZ*ONE PROFILE</h1>
